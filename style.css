@@ -1,0 +1,56 @@
+.icon-color {
+    color: #4344fd;
+}
+
+.bi-star {
+    color: #4344fd;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.btn-outline-primary {
+    border-color: #881cf9;
+    color: #881cf9;
+}
+
+.btn-outline-primary:hover {
+    background-color: #881cf9;
+    color: #fff;
+}
+
+.bg-download {
+    background: linear-gradient(90deg, #881cf9 0%, #4344fd 100%);
+}
+
+.img-bg {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    content: "";
+    width: 350px;
+    height: 350px;
+    position: relative;
+}
+.img-phone {
+    max-width: 60%;
+}
+
+@media (max-width: 990px) {
+    .img-fluid {
+        max-width: 70%;
+        margin-top: 50px;
+        margin-left: 150px;
+    }
+}
+
+
+footer a {
+    color: #000000;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #4344fd;
+}
